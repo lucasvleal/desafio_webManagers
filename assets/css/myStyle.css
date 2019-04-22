@@ -1,0 +1,134 @@
+html, body {height:100%;}
+
+.myContainer{
+    padding: 20px 10px;
+    min-height: 80%;
+    position: relative;
+}
+
+/* Nav */
+.itemNav{
+    transition: .3s;
+}
+
+.itemNav:hover{
+    background-color: rgba(0,0,0,0.25);
+    border-radius: 15px;
+    transition: .3s;
+}
+/* ---Nav--- */
+
+
+/* form */
+.myLabel{
+    font-size: 14px;
+    color: rgba(0,0,0,0.55);
+}
+
+.divForm{
+    /* border: 1px solid rgba(46, 59, 61, 0.15); */
+    background-color: rgba(46, 59, 61, 0.05);
+    border-radius: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.myBtn{
+    background-color: #343A40;
+    color: white;
+    transition: .3s;
+    font-weight: bold;
+}
+
+.myBtn:hover{
+    background-color: #A5DC3F;
+    transition: .3s;
+}
+/* ---form--- */
+
+/* modal */
+.cancel{
+    background-color: tomato;
+    transition: .3s;
+    font-weight: 500;
+}
+
+.cancel:hover{
+    background-color: red;
+    transition: .3s;
+}
+
+.closeModal{
+    color: tomato;
+}
+
+.closeModal:hover{
+    color: red;
+}
+/* ---modal--- */
+
+/* tabela */
+.erroConsulta, .semAluno{
+    font-weight: bold;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.myBtnTabela{
+    background-color: transparent;
+    color: steelblue;
+}
+
+.myBtnTabela:hover{
+    background-color: transparent;
+    text-decoration: underline;
+}
+/* ---tabela--- */
+
+/* footer */
+.footer{
+    background-color: rgb(34, 39, 43);
+    /* height: 130px; */
+}
+
+.footerBaixo{
+    background-color: #343A40;
+}
+
+.logoPeB{
+    filter: grayscale(100%);
+    transition: .5s;
+}
+
+.logoPeB:hover{
+    filter: grayscale(0%);
+    transition: .5s;
+}
+
+.iconFooter{
+    color: rgba(255,255,255,0.5);
+    margin-right: 15px;
+    transition: .5s;
+}
+
+.iconFooter:hover{
+    color: #A5DC3F;
+    transition: .5s;    
+}
+
+.nomeFooter{
+    color: #A5DC3F;
+    font-size: 12px;
+}
+/* ---footer--- */
+
+/* media querie */
+@media only screen and (max-width : 768px) {
+    .myBtn{
+        margin-top: 15px;
+        width: 100%;
+    }
+  }
+
+/* ---media querie--- */
